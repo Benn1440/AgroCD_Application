@@ -12,11 +12,14 @@ https://argo-cd.readthedocs.io/en/stable/
 ## Minikube cluster for Kubernetes Operations <br><br>
 <img width="1152" height="420" alt="image" src="https://github.com/user-attachments/assets/23859350-55fb-4081-916b-599459c2d29d" /><br><br>
 
-## Create namespace for ArgoCD
-`kubectl create namespace argocd`
+## Create namespace for ArgoCD && Install ArgoCD
+`kubectl create namespace argocd` <br><br>
+`kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml`<br><br>
 
-## Install ArgoCD
-`kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml`
+<img width="454" height="119" alt="image" src="https://github.com/user-attachments/assets/f3a520c7-d3a4-4453-a1ba-142673588a87" /><br><br>
+
+<img width="1083" height="381" alt="image" src="https://github.com/user-attachments/assets/7f599cdc-b6bc-46ae-aa5e-2a11aca61503" />
+
 
 ## Wait for pods to be ready
 `kubectl wait --for=condition=Ready pods --all -n argocd --timeout=300s`
