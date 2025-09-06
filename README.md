@@ -1,5 +1,6 @@
-## Refrence Git Project
-https://github.com/Benn1440/Node_Server
+## Reference Git Project and Official AgroCD Documentation<br><br>
+https://github.com/Benn1440/Node_Server<br>
+https://argo-cd.readthedocs.io/en/stable/
 
 #### Workflow push the Application to Docker Hub so we work with the application image<br><br>
 <img width="2898" height="906" alt="image" src="https://github.com/user-attachments/assets/b207d5db-d399-40b6-ba0e-c220484e0f7e" /><br><br>
