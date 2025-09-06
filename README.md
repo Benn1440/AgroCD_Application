@@ -27,17 +27,18 @@ https://argo-cd.readthedocs.io/en/stable/
 <img width="753" height="175" alt="image" src="https://github.com/user-attachments/assets/2342a32c-5926-4f83-9e3f-2d28eab28b7c" />
 
 
-## Get ArgoCD admin password
-`kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d && echo`
+## Get ArgoCD admin password<br><br>
+`kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d && echo`<br>
 <img width="950" height="177" alt="image" src="https://github.com/user-attachments/assets/f84901f6-a61e-4c14-b4a6-6e91945e31f4" />
 
 
 ## Port forward to access ArgoCD UI
 `kubectl port-forward svc/argocd-server -n argocd 8080:443`
-<img width="768" height="254" alt="image" src="https://github.com/user-attachments/assets/5a93a64f-1d1d-4ec3-ac53-a653216be53e" />
+<img width="768" height="254" alt="image" src="https://github.com/user-attachments/assets/5a93a64f-1d1d-4ec3-ac53-a653216be53e" /><br><br>
 
+<img width="1923" height="682" alt="image" src="https://github.com/user-attachments/assets/1cf08ca1-4249-4e08-b0b4-d442697d7f25" /><br><br>
 
-<img width="1911" height="1040" alt="image" src="https://github.com/user-attachments/assets/a4b5b7fb-2381-485f-93ed-7772d6fc26f4" />
+<img width="1911" height="1040" alt="image" src="https://github.com/user-attachments/assets/a4b5b7fb-2381-485f-93ed-7772d6fc26f4" /> <br><br>
 
 
 
