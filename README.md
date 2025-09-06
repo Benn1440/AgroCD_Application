@@ -9,7 +9,7 @@ https://github.com/Benn1440/Node_Server
 
 
 ## Minikube cluster for Kubernetes Operations <br><br>
-<img width="855" height="240" alt="image" src="https://github.com/user-attachments/assets/733f49b2-daeb-41b1-9ea0-ba0a7a901b16" /><br><br>
+<img width="1152" height="420" alt="image" src="https://github.com/user-attachments/assets/23859350-55fb-4081-916b-599459c2d29d" /><br><br>
 
 ## Create namespace for ArgoCD
 `kubectl create namespace argocd`
