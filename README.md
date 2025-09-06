@@ -4,9 +4,12 @@ https://github.com/Benn1440/Node_Server
 #### Workflow push the Application to Docker Hub so we work with the application image<br><br>
 <img width="2898" height="906" alt="image" src="https://github.com/user-attachments/assets/b207d5db-d399-40b6-ba0e-c220484e0f7e" /><br><br>
 
+#### Image available on DockerHub <br><br>
+<img width="1913" height="758" alt="image" src="https://github.com/user-attachments/assets/f443c5c4-7ffb-4362-8e23-ea2f358fbbdf" /><br><br>
+
+
 ## Minikube cluster for Kubernetes Operations <br><br>
 <img width="855" height="240" alt="image" src="https://github.com/user-attachments/assets/733f49b2-daeb-41b1-9ea0-ba0a7a901b16" /><br><br>
-
 
 ## Create namespace for ArgoCD
 `kubectl create namespace argocd`
