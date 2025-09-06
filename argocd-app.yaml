@@ -1,0 +1,23 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: node-server
+  namespace: argocd
+spec:
+
+  source:
+    repoURL: https://github.com/Benn1440/Node_Server
+    targetRevision: main
+    path: k8s  
+  project: default
+
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: myappns
+
+  syncPolicy:
+    automated:
+      selfHeal: true
+      prune: true
+    syncOptions:
+    - CreateNamespace=true
