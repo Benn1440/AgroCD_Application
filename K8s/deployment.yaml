@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: node-server
-        image: benn1440/node_server:latest
+        image: benn1440/nodeserver:latest
         ports:
         - containerPort: 3000
         env:
