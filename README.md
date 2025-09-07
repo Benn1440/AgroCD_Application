@@ -1,4 +1,4 @@
-## Reference Git Project and Official AgroCD Documentation<br><br>
+## Reference Git Project and Official ArgoCD Documentation<br><br>
 https://github.com/Benn1440/Node_Server<br>
 https://argo-cd.readthedocs.io/en/stable/
 
@@ -39,6 +39,13 @@ https://argo-cd.readthedocs.io/en/stable/
 <img width="1923" height="682" alt="image" src="https://github.com/user-attachments/assets/1cf08ca1-4249-4e08-b0b4-d442697d7f25" /><br><br>
 
 <img width="1911" height="1040" alt="image" src="https://github.com/user-attachments/assets/a4b5b7fb-2381-485f-93ed-7772d6fc26f4" /> <br><br>
+
+### Apply Application Configuration
+Push your changes from your Local to the git repository, then run an apply to sync the  project with argocd<br><br>
+`kubectl apply -f argocd-app.yaml`
+<img width="1928" height="270" alt="image" src="https://github.com/user-attachments/assets/d79a8a27-4a78-44e7-9afe-2a6b55bc094a" /><br><br>
+
+<img width="1915" height="1041" alt="image" src="https://github.com/user-attachments/assets/2167dd2b-ec77-4039-87e4-bff60a44c2f3" /><br><br>
 
 
 
