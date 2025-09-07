@@ -6,7 +6,7 @@ metadata:
 spec:
 
   source:
-    repoURL: https://github.com/Benn1440/AgroCD_Application
+    repoURL: https://github.com/Benn1440/AgroCD_Application.git
     targetRevision: main
     path: K8s 
   project: default
