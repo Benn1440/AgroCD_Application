@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: node-server
+  name: python_app
 spec:
   selector:
-    app: node-server
+    app: python_app
   ports:
   - port: 80
     targetPort: 3000
