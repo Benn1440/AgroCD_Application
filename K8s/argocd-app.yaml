@@ -6,7 +6,7 @@ metadata:
 spec:
 
   source:
-    repoURL: https://github.com/Benn1440/Node_Server
+    repoURL: https://github.com/Benn1440/AgroCD_Application
     targetRevision: main
     path: k8s  
   project: default
