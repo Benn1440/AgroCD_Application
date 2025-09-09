@@ -1,18 +1,19 @@
 ## Reference Git Project and Official ArgoCD Documentation<br><br>
-https://github.com/Benn1440/Node_Server<br>
+https://github.com/Benn1440/pythonapp<br>
 https://argo-cd.readthedocs.io/en/stable/
 
 #### Workflow push the Application to Docker Hub so we work with the application image<br><br>
-<img width="2898" height="906" alt="image" src="https://github.com/user-attachments/assets/b207d5db-d399-40b6-ba0e-c220484e0f7e" /><br><br>
+<img width="2922" height="1166" alt="image" src="https://github.com/user-attachments/assets/c291bda0-82b1-48cc-bc6b-417a3f51d479" /><br><br>
 
 #### Image available on DockerHub <br><br>
-<img width="1913" height="758" alt="image" src="https://github.com/user-attachments/assets/f443c5c4-7ffb-4362-8e23-ea2f358fbbdf" /><br><br>
+<img width="1925" height="516" alt="image" src="https://github.com/user-attachments/assets/0cb465ad-d87f-4041-9658-6d514e97c229" />
+<br><br>
 
 
 ## Minikube cluster for Kubernetes Operations <br><br>
 <img width="1152" height="420" alt="image" src="https://github.com/user-attachments/assets/23859350-55fb-4081-916b-599459c2d29d" /><br><br>
 
-## Create namespace for ArgoCD && Install ArgoCD
+## Create namespace for ArgoCD & Install ArgoCD
 `kubectl create namespace argocd` <br><br>
 `kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml`<br><br>
 
