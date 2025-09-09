@@ -46,11 +46,13 @@ Push your changes from your Local to the git repository, then run an apply to sy
 `kubectl apply -f argocd-app.yaml`
 <img width="1928" height="270" alt="image" src="https://github.com/user-attachments/assets/d79a8a27-4a78-44e7-9afe-2a6b55bc094a" /><br><br>
 
-<img width="1915" height="1041" alt="image" src="https://github.com/user-attachments/assets/2167dd2b-ec77-4039-87e4-bff60a44c2f3" /><br><br>
+<img width="1920" height="958" alt="image" src="https://github.com/user-attachments/assets/7b6fd699-a818-43f4-a3f1-00077ec7573c" />
+<br><br>
 
-### Deployed Application
+### Deployed Application and in healthy state
 
-<img width="1918" height="959" alt="image" src="https://github.com/user-attachments/assets/a7391c87-5201-4e0e-a4fa-513c349a9090" />
+<img width="1925" height="958" alt="image" src="https://github.com/user-attachments/assets/c0c63d0c-1fde-4f32-a7c9-6e1c83a197aa" />
+
 
 
 
