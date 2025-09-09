@@ -48,5 +48,10 @@ Push your changes from your Local to the git repository, then run an apply to sy
 
 <img width="1915" height="1041" alt="image" src="https://github.com/user-attachments/assets/2167dd2b-ec77-4039-87e4-bff60a44c2f3" /><br><br>
 
+### Deployed Application
+
+<img width="1918" height="959" alt="image" src="https://github.com/user-attachments/assets/a7391c87-5201-4e0e-a4fa-513c349a9090" />
+
+
 
 
