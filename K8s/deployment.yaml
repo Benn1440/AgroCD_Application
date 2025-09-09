@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: benn1440/python_app:latest
+        image: benn1440/python-app:latest
         ports:
         - containerPort: 3000
         # env:
